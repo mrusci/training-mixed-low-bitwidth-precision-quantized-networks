@@ -21,8 +21,14 @@ For any question just drop me an [email](mailto:manuele.rusci@unibo.it).
 ## Getting Started
 
 ### Prerequisites
-- The code is tested with PyTorch 0.4.1 and Python 3.5
+- The code is tested with PyTorch 1.13.1 and Python 3.7
 - Tensorflow package is needed to load pretrained tensorflow model weights
+
+Run the following commands to make a conda environment,
+```bash
+conda create -n mixed_precision python=3.7
+pip install -r requirements.txt
+```
 
 ### Setup
 Set the correct dataset paths inside `data.py` . As an example:
